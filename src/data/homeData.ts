@@ -5,7 +5,7 @@ export const skillCategories = [
     category: "Frontend",
     icon: Code2,
     skills: [
-      { name: "React/Next.js", level: 95, color: "bg-blue-500" },
+      { name: "React/Next.js/React Native", level: 95, color: "bg-blue-500" },
       { name: "TypeScript", level: 90, color: "bg-blue-600" },
       { name: "Tailwind CSS", level: 85, color: "bg-cyan-500" },
       { name: "State Management", level: 80, color: "bg-purple-500" },
@@ -16,7 +16,7 @@ export const skillCategories = [
     icon: Database,
     skills: [
       { name: "Node.js/Express", level: 88, color: "bg-green-500" },
-      { name: "Python/Django", level: 75, color: "bg-green-600" },
+      { name: "RESTful API/GraphQL", level: 75, color: "bg-green-600" },
       { name: "PostgreSQL/MongoDB", level: 82, color: "bg-emerald-500" },
       { name: "API Design", level: 85, color: "bg-teal-500" },
     ],
