@@ -41,7 +41,7 @@ export default function About() {
   ];
 
   const stats = [
-    { value: "1.5+", label: "Years Experience" },
+    { value: "1+", label: "Years Experience" },
     { value: "15+", label: "Projects Completed" },
     { value: "80%", label: "Client Satisfaction" },
     { value: "10k+", label: "Lines of Code" },
@@ -191,7 +191,7 @@ export default function About() {
               <motion.div className="space-y-4" variants={itemVariants}>
                 <h3 className="text-2xl font-semibold">My Journey</h3>
                 <p className="text-lg">
-                  I'm a passionate software engineer with over 1.5 years of
+                  I'm a passionate software engineer with over 1 years of
                   experience building scalable web applications. My journey
                   started with tinkering with HTML/CSS as a teenager, which
                   evolved into a deep fascination with solving complex problems
