@@ -50,23 +50,7 @@ export const projects = [
       "Admin dashboard analytics",
     ],
   },
-  {
-    title: "MedConnect Healthcare Platform",
-    description:
-      "A comprehensive medical website for patient management, appointment scheduling, and telemedicine consultations.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "AWS"],
-    github: "https://github.com",
-    live: "https://example.com",
-    image: "/medical.jpeg",
-    featured: true,
-    highlights: [
-      "Telemedicine video consultations",
-      "Electronic Health Records (EHR) system",
-      "Automated appointment scheduling",
-      "HIPAA compliant data security",
-      "Prescription management portal",
-    ],
-  },
+
   {
     title: "E-Commerce Mobile App UI",
     description:
@@ -78,8 +62,8 @@ export const projects = [
       "Tailwind CSS",
       "React Navigation",
     ],
-    github: "https://github.com/codewithjaker/react-native-ecommerce-ui",
-    live: "https://your-app-demo-link.com", // optional if you have a live preview
+    github: "https://github.com/codewithjaker/expo-ecommerce-mobile",
+    live: "#", // optional if you have a live preview
     image: "rn-ecommerce-ui.jpeg", // screenshot of your app UI
     featured: true,
     highlights: [
@@ -96,8 +80,8 @@ export const projects = [
     description:
       "A modern, responsive school management dashboard built with Next.js and Shadcn/UI, focusing entirely on frontend design and user experience.",
     tags: ["Next.js", "TypeScript", "Shadcn/UI", "Tailwind CSS", "React Query"],
-    github: "https://github.com/codewithjaker/school-dashboard-ui",
-    live: "https://your-dashboard-demo.com", // optional if live preview available
+    github: "https://github.com/codewithjaker/school-dashboard",
+    live: "#", // optional if live preview available
     image: "school-dashboard-ui.jpeg", // screenshot of your dashboard
     featured: true,
     highlights: [
@@ -109,24 +93,57 @@ export const projects = [
       "Focus on user-friendly interface and UX",
     ],
   },
-  {
-    title: "Learning Management System UI",
+ {
+    title: "Nexus Multi-Vendor OS",
     description:
-      "A modern and responsive Learning Management System (LMS) frontend built with Next.js and Shadcn/UI, focusing on user experience for students and teachers.",
-    tags: ["Next.js", "TypeScript", "Shadcn/UI", "Tailwind CSS", "React Query"],
-    github: "https://github.com/codewithjaker/lms-frontend-ui",
-    live: "https://your-lms-demo.com", // optional live demo link
-    image: "lms-dashboard-ui.jpeg", // screenshot of LMS UI
+      "An enterprise-grade marketplace engine with a dual-dashboard system. Features a central authority panel for platform oversight and a dedicated merchant portal for independent vendor operations.",
+    tags: ["Next.js 15", "Stripe Connect", "Supabase", "TanStack Table", "Shadcn/UI"],
+    github: "https://github.com/codewithjaker/ecommerce-admin-react",
+    live: "https://nexus-marketplace-admin.com",
     featured: true,
     highlights: [
-      "Interactive dashboard for students and teachers",
-      "Course listing and enrollment UI",
-      "Responsive design for mobile and desktop",
-      "Clean UI for lessons, quizzes, and assignments",
-      "User-friendly navigation and profile management",
-      "Focus on modern UX/UI patterns with Shadcn/UI",
+      "Stripe Connect integration for automated vendor payouts and platform fees",
+      "Dynamic multi-tenant architecture with vendor-specific subdomains",
+      "Advanced Inventory Management with bulk CSV upload and variant tracking",
+      "Real-time Sales Analytics & Commission tracking for Super Admins",
+      "KYC Onboarding workflow for new merchant verification",
+      "Global Search & Filtering across 50,000+ products using Meilisearch",
     ],
   },
+  {
+    title: "Full Stack Library Management System",
+    description:
+      "A comprehensive library ecosystem featuring a student-facing catalog and a robust administrative portal. Built to handle real-time book tracking, automated fine calculations, and secure member authentication.",
+    tags: ["Next.js", "PostgreSQL", "Prisma", "Auth.js", "Tailwind CSS", "Zod"],
+    github: "https://github.com/codewithjaker/library-management-system",
+    live: "https://lumina-lib-demo.com",
+    featured: true,
+    highlights: [
+      "Secure RBAC (Role-Based Access Control) for Admins and Members",
+      "Real-time availability tracking with PostgreSQL & Prisma",
+      "Automated overdue fine logic and email notifications",
+      "Advanced server-side search and pagination for 10,000+ records",
+      "Digital book borrowing workflow with QR code verification",
+      "Dynamic analytics dashboard for library usage statistics",
+    ],
+  },
+  // {
+  //   title: "MedConnect Healthcare Platform",
+  //   description:
+  //     "A comprehensive medical website for patient management, appointment scheduling, and telemedicine consultations.",
+  //   tags: ["Next.js", "TypeScript", "PostgreSQL", "AWS"],
+  //   github: "https://github.com",
+  //   live: "https://example.com",
+  //   image: "/medical.jpeg",
+  //   featured: true,
+  //   highlights: [
+  //     "Telemedicine video consultations",
+  //     "Electronic Health Records (EHR) system",
+  //     "Automated appointment scheduling",
+  //     "HIPAA compliant data security",
+  //     "Prescription management portal",
+  //   ],
+  // },
 ];
 
 export const experiences = [
