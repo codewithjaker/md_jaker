@@ -39,8 +39,8 @@ export const projects = [
     description:
       "Full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
     tags: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
+    github: "https://github.com/codewithjaker/nextjs-ecommerce-zamzam",
+    live: "https://mustaqbalzamzam.com",
     image: "ecommerce.jpeg",
     // "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
     featured: true,
@@ -65,6 +65,66 @@ export const projects = [
       "Automated appointment scheduling",
       "HIPAA compliant data security",
       "Prescription management portal",
+    ],
+  },
+  {
+    title: "E-Commerce Mobile App UI",
+    description:
+      "A visually appealing React Native e-commerce mobile app focusing solely on frontend design and user experience.",
+    tags: [
+      "React Native",
+      "TypeScript",
+      "Expo",
+      "Tailwind CSS",
+      "React Navigation",
+    ],
+    github: "https://github.com/codewithjaker/react-native-ecommerce-ui",
+    live: "https://your-app-demo-link.com", // optional if you have a live preview
+    image: "rn-ecommerce-ui.jpeg", // screenshot of your app UI
+    featured: true,
+    highlights: [
+      "Modern and responsive mobile-first design",
+      "Smooth navigation between product screens",
+      "Interactive product cards and carousel",
+      "Customizable cart and checkout UI",
+      "Clean and consistent typography and color scheme",
+      "Focus on user experience and intuitive layout",
+    ],
+  },
+  {
+    title: "School Dashboard UI",
+    description:
+      "A modern, responsive school management dashboard built with Next.js and Shadcn/UI, focusing entirely on frontend design and user experience.",
+    tags: ["Next.js", "TypeScript", "Shadcn/UI", "Tailwind CSS", "React Query"],
+    github: "https://github.com/codewithjaker/school-dashboard-ui",
+    live: "https://your-dashboard-demo.com", // optional if live preview available
+    image: "school-dashboard-ui.jpeg", // screenshot of your dashboard
+    featured: true,
+    highlights: [
+      "Clean and intuitive dashboard layout",
+      "Interactive sidebar and top navigation",
+      "Dynamic tables for students, teachers, and classes",
+      "Custom charts and data visualization",
+      "Responsive design for mobile and desktop",
+      "Focus on user-friendly interface and UX",
+    ],
+  },
+  {
+    title: "Learning Management System UI",
+    description:
+      "A modern and responsive Learning Management System (LMS) frontend built with Next.js and Shadcn/UI, focusing on user experience for students and teachers.",
+    tags: ["Next.js", "TypeScript", "Shadcn/UI", "Tailwind CSS", "React Query"],
+    github: "https://github.com/codewithjaker/lms-frontend-ui",
+    live: "https://your-lms-demo.com", // optional live demo link
+    image: "lms-dashboard-ui.jpeg", // screenshot of LMS UI
+    featured: true,
+    highlights: [
+      "Interactive dashboard for students and teachers",
+      "Course listing and enrollment UI",
+      "Responsive design for mobile and desktop",
+      "Clean UI for lessons, quizzes, and assignments",
+      "User-friendly navigation and profile management",
+      "Focus on modern UX/UI patterns with Shadcn/UI",
     ],
   },
 ];
